@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,9 +13,10 @@
     <link rel="stylesheet" href="index.css" />
     <title>Swipe</title>
   </head>
+
   <body>
     <nav class="navbar">
-      <img src="assets/logo-white.svg" alt="Swipe inc." />
+      <img src="assets/logo-white.svg" alt="Swipe, inc." />
       <ul class="menu">
         <li><a href="#">Products</a></li>
         <li><a href="#">Solutions</a></li>
@@ -24,54 +24,49 @@
         <li><a href="#">Resources</a></li>
         <li><a href="#">Pricing</a></li>
       </ul>
+
       <button class="primary-button navbar-button">Sign In</button>
     </nav>
-    <h1>HEADING 1</h1>
-    <h2>HEADING 2</h2>
-    <h3>HEADING 3</h3>
-    <h4>HEADING 4</h4>
-    <h5>HEADING 5</h5>
-    <h6>HEADING 6</h6>
-    <a href="#">Click Me</a>
-
-    <p class="secondary-text">Lorem ipsum dolor sit amet.</p>
-
-    <button class="primary-button">Start Now</button>
-    <button class="secondary-btn">Contact Us</button>
-
-    <button class="primary-button wth-icon">
-      Start Now
-      <img src="assets/arrow-right-light.svg" />
-    </button>
-    <button class="secondary-btn wth-icon">
-      Start Now
-      <img src="assets/arrow-right-dark.svg" />
-    </button>
-    <div class="section-container">
-      <div class="two-col">
-        <div class="col-left">
-          <h3>HEADING 3</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos rerum
-            ipsum facere delectus, sequi enim totam quibusdam consequuntur atque
-            excepturi laboriosam quis, nobis veritatis exercitationem ab! Quos
-            numquam rerum consequatur?
-          </p>
-        </div>
-        <div class="col-right">
-          <h3>HEADING 3</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
-            modi repellat vitae voluptate totam iusto ducimus magnam voluptatum,
-            velit repudiandae esse. Tempora voluptatum cumque quasi consectetur
-            natus, est tenetur labore!
-          </p>
-          <div class="two-col">
-            <div class="col-left">TEXT</div>
-            <div class="col-right">TEXT</div>
+    <main>
+      <div class="hero">
+        <div class="section-container two-column">
+          <div class="col-left">
+            <h1>Payments infrastructure for the world</h1>
+            <p>
+              Tons of companies all over the world use Swipe’s seamless platform
+              to manage their businesses's entire financial transaction
+              infrastructure online.
+            </p>
+            <div class="button-container">
+              <button class="primary-button with-icon">
+                Start now
+                <img src="assets/arrow-right-light.svg" alt="" />
+              </button>
+              <button class="secondary-button with-icon">
+                Contact Sales
+                <img src="assets/arrow-right-purple.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="col-right hero-phone-container">
+            <img class="hero-phone" src="assets/hero-phone.png" alt="" />
           </div>
         </div>
       </div>
-    </div>
+      <div class="partners-section">
+        <div class="section-container">
+          <div class="partners-grid">
+            <img src="assets/instacart.png" alt="Instacart" />
+            <img src="assets/salesforce.png" alt="salesforce" />
+            <img src="assets/amazon.png" alt="Amazon" />
+            <img src="assets/slack.png" alt="Slack" />
+            <img src="assets/shopify.png" alt="Shopify" />
+            <img src="assets/google.png" alt="Google" />
+            <img src="assets/lyft.png" alt="Lyft" />
+            <img src="assets/zoom.png" alt="Zoom" />
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
