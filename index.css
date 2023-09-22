@@ -311,8 +311,7 @@ p {
   top: -600px;
   left: -50%;
   z-index: -1;
-background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,112,1) 52%, rgba(252,188,69,1) 100%);
+
 }
 
 /* HERO STYLES */
