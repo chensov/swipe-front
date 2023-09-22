@@ -311,10 +311,8 @@ p {
   top: -600px;
   left: -50%;
   z-index: -1;
-  --gradient-color-1: #ef008f;
-  --gradient-color-2: #6ec3f4;
-  --gradient-color-3: #7038ff;
-  --gradient-color-4: #ffba27;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,112,1) 52%, rgba(252,188,69,1) 100%);
 }
 
 /* HERO STYLES */
